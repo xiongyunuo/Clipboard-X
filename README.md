@@ -1,8 +1,10 @@
 # Clipboard-X
 Cross-platform app to inspect and manipulate clipboard.  
+For release: https://github.com/xiongyunuo/Clipboard-X/releases.  
 Make sure you have node.js installed on your computer.  
 In terminal, change the current directory to the root directory of this repository.  
 If you are working in Windows, first you need to remove "electron-installer-debian", "electron-installer-dmg" dependencies from the "devDependencies" field in the package.json file.  
+If you are working in Linux, first you need to remove "electron-winstaller", "electron-installer-dmg" dependencies from the "devDependencies" field in the package.json file.  
 To install necessary dependencies, run  
 `npm install`  
 To run the app, run  
