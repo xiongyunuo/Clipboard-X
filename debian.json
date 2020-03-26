@@ -1,0 +1,10 @@
+{
+  "dest": "build/",
+  "icon": "icons/Icon.png",
+  "categories": [
+    "Utility"
+  ],
+  "lintianOverrides": [
+    "changelog-file-missing-in-native-package"
+  ]
+}

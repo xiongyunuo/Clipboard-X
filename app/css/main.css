@@ -1,0 +1,241 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+}
+
+body, input {
+  font: menu;
+}
+
+body {
+  background-color: rgb(30, 30, 30);
+}
+
+textarea {
+  padding: 0px;
+  border: 0px;
+}
+
+.title-bar {
+  width: 100%;
+  height: 23px;
+  background-color: rgb(50, 50, 50);
+  -webkit-app-region: drag;
+  line-height: 23px;
+}
+
+.titlebar {
+  height: 30px;
+}
+
+.title {
+  text-align: center;
+  color: rgb(150, 150, 150);
+  font-style: 15px;
+  height: 23px;
+  margin: 0px;
+  -webkit-user-select: none;
+}
+
+.inspector {
+  width: 90%;
+  margin: 0% 5%;
+  padding: 0px;
+  background-color: rgb(70, 70, 70);
+}
+
+.options {
+  float: left;
+  width: 30%;
+  margin: 0% 5%;
+  padding: 0px;
+  background-color: rgb(100, 100, 100);
+}
+
+.clipboard-content {
+  float: left;
+  width: 55%;
+  margin: 0%;
+  margin-right: 5%;
+  padding: 0px;
+  background-color: rgb(100, 100, 100);
+  overflow: scroll;
+}
+
+.clipboard-none {
+  width: 100%;
+  background-color: rgb(80, 80, 80);
+}
+
+button {
+  background-color: rgb(130, 130, 130);
+  color: rgb(50, 50, 50);
+  font-weight: 500;
+  font-size: 1.2em;
+  padding: 0px;
+  outline: none;
+  border-color: rgb(120, 120, 120);
+}
+
+button:hover {
+  background-color: rgb(150, 150, 150);
+  color: rgb(100, 100, 100);
+}
+
+.button {
+  width: 80%;
+  margin: 0% 10%;
+}
+
+.clipboard-text {
+  color: rgb(200, 200, 200);
+  margin: 10px;
+  overflow: scroll;
+}
+
+.clipboard-bookmark {
+  width: 100%;
+  margin: 0%;
+  overflow: scroll;
+}
+
+.clipboard-bookmark p {
+  color: rgb(200, 250, 200);
+  margin: 0px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.2em;
+}
+
+.clipboard-bookmark .bookmark-title {
+  color: rgb(200, 200, 200);
+  font-size: inherit;
+}
+
+.clipboard-bookmark .bookmark-url {
+  color: rgb(200, 200, 200);
+  font-size: inherit;
+}
+
+.clipboard-img {
+  width: 70%;
+  margin: 0 15%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.setter {
+  width: 90%;
+  margin: 0% 5%;
+  padding: 0px;
+  background-color: rgb(70, 70, 70);
+}
+
+.clipboard-setter {
+  float: left;
+  width: 55%;
+  margin: 0%;
+  margin-right: 5%;
+  padding: 0px;
+  background-color: rgb(100, 100, 100);
+  overflow: scroll;
+}
+
+.clipboard-buttons {
+  float: left;
+  width: 55%;
+  margin: 0%;
+  margin-right: 5%;
+  padding: 0px;
+  background-color: rgb(100, 100, 100);
+}
+
+.setter-none {
+  width: 100%;
+  background-color: rgb(80, 80, 80);
+}
+
+.textarea {
+  outline: none;
+  color: rgb(250, 250, 250);
+  background-color: rgb(150, 150, 150);
+  width: 90%;
+  margin: 0% 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  resize: none;
+}
+
+.bookmark-setter p {
+  color: rgb(200, 250, 200);
+  margin: 0px;
+  padding: 10px;
+  padding-left: 5%;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.bookmark-setter textarea {
+  outline: none;
+  color: rgb(250, 250, 250);
+  background-color: rgb(150, 150, 150);
+  width: 90%;
+  margin: 0% 5%;
+  font-size: 12px;
+  resize: none;
+}
+
+.choose-image {
+  width: 50%;
+  float: left;
+  margin-left: 5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.clear-image {
+  width: 30%;
+  float: right;
+  margin-right: 5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.image-wall {
+  width: 70%;
+  margin: 0 15%;
+  margin-bottom: 10px;
+}
+
+.copy {
+  width: 20%;
+  margin: 0% 3%;
+  float: left;
+}
+
+.clear {
+  width: 50%;
+  margin: 0% 3%;
+  float: right;
+}

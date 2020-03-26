@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src * 'self' data:; script-src 'self' 'unsafe-inline'; connect-src 'self'; style-src 'self' 'unsafe-inline';">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clipboard X</title>
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+  </head>
+  <body>
+    <div class="title-bar">
+      <p class="title">Clipboard X</p>
+    </div>
+    <div class="inspector">
+      <div class="options">
+        <button class="text button">Text</button>
+        <button class="html button">HTML</button>
+        <button class="image button">Image</button>
+        <button class="rtf button">RTF</button>
+        <button class="bookmark button">Bookmark</button>
+        <button class="findtext button">Find Text</button>
+      </div>
+      <div class="clipboard-content">
+        <div class="clipboard-none"></div>
+        <p class="clipboard-text"></p>
+        <div class="clipboard-bookmark">
+          <p>Title</p>
+          <p class="bookmark-title"></p>
+          <p>URL</p>
+          <p class="bookmark-url"></p>
+        </div>
+        <img class="clipboard-img">
+      </div>
+    </div>
+    <div class="setter">
+      <div class="options">
+        <button class="text button">Text</button>
+        <button class="html button">HTML</button>
+        <button class="image button">Image</button>
+        <button class="rtf button">RTF</button>
+        <button class="bookmark button">Bookmark</button>
+        <button class="findtext button">Find Text</button>
+      </div>
+      <div class="clipboard-setter">
+        <div class="setter-none"></div>
+        <textarea class="textarea"></textarea>
+        <div class="bookmark-setter">
+          <p>Title</p>
+          <textarea class="title-setter"></textarea>
+          <p>URL</p>
+          <textarea class="url-setter"></textarea>
+        </div>
+        <div class="image-setter">
+          <div>
+            <button class="choose-image">Choose Image</button>
+            <button class="clear-image">Clear</button>
+          </div>
+          <img class="image-wall">
+        </div>
+      </div>
+      <div class="clipboard-buttons">
+        <button class="copy">Copy</button>
+        <button class="clear">Clear Clipboard</button>
+      </div>
+    </div>
+    <script>
+      require('../scripts/main-renderer');
+    </script>
+  </body>
+</html>
