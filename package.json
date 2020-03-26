@@ -19,7 +19,7 @@
     "Pasteboard"
   ],
   "author": "Yunuo Xiong",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "devDependencies": {
     "electron": "8.1.1",
     "electron-installer-debian": "^3.0.0",
